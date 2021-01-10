@@ -1,0 +1,61 @@
+x = True
+y = False
+
+print(x and y) #true and false
+print(x or y) # true of true
+print(not x) # not true = false
+print(not y) # not false = true
+
+x = 5
+print(x > 4 and x < 11) # True
+print(x > 3 or x < 4) # True
+print(not(x > 3 and x < 10)) # false
+
+x = 100
+print(x > 40 and x < 90) # false 
+print(x > 30 or x < 400) # true
+print(not(x > 3 and x < 10)) # true
+
+=======================================================
+
+1. What is a List in python? 
+#lists are used to store multiple items in one variable
+
+2. Create a school bag list ?
+SchoolBag = ["lunch", "notebook", "pencil", "waterbottle"]
+
+3. Create list contains a String, int and boolean data types?
+string = ["blue", "pink", "purple"]
+integers = [2,7,4,9]
+booleans = [true, false, true]
+
+4. How to determine how many items a list has? use the function by example?"
+lenth function
+fruits = ["apple", "orange", "grape"]
+print(len(fruits))
+
+5.thislist = ["orange", "apple", "banana", "cherry"]  
+
+5.1 Print the second item of the list?
+print (thislist[1]) # = apple
+
+5.2 Print the last item of the list?
+print (thislist[3]) # = cherry
+
+5.3 Print the first item of the list?
+print (thislist[0]) # = orange
+
+6. thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
+6.1 Print second, third, fourth, and fifth item from the list
+print (thislist[1:5]) # = "banana", "cherry", "orange", "kiwi"
+
+6.2 print first and last item from the list
+print (thislist[0:-5]) # = "apple", "banana"
+
+6.3 print items from the beginning to, but NOT including, "orange"
+print (thislist[2:-4]) # = "apple", "banana", "cherry", "kiwi", "melon", "mango"
+
+6.4 print item from "orange" to the end
+print (thislist[3:-0])
+
