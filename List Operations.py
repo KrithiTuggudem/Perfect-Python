@@ -29,7 +29,7 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 
 #3.1 use function to insert "watermelon" as the third item
-thislist.insert(3, "Watermelon")
+thislist.insert(2, "Watermelon")
 print(thislist)
 #3.2 use function to insert "watermelon" as the Last item
 thislist = ["apple", "banana", "cherry"]
