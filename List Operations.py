@@ -29,6 +29,40 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 
 #3.1 use function to insert "watermelon" as the third item
-
+thislist.insert(3, "Watermelon")
+print(thislist)
 #3.2 use function to insert "watermelon" as the Last item
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(3,"watermelon")
+print(thislist)
 #3.3 use function to insert "watermelon" as the first item
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(0,"watermelon")
+print(thislist)
+
+
+#4. 
+thislist = ["apple", "banana", "cherry"]
+
+#4.1 use function to append "watermelon" to list.
+thislist.append("watermelon")
+print(thislist)
+
+
+#5. What is the difference between insert and append function? show with example?
+
+#The insert function is able to insert anything anywhere, even the end:
+thislist = ["apple", "banana", "cherry"]
+
+thislist.insert(2, "grape")
+thislist.insert(3, "orange")
+print(thislist)
+
+#The append function only inserts at the end. This is because append only takes 1 argument
+thislist = ["apple", "banana", "cherry"]
+
+thislist.append("grape")
+thislist.append("orange")
+print(thislist)
+
+#END OF ASSIGHNMENT
