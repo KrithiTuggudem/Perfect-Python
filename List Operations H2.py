@@ -54,9 +54,9 @@ for x in thislist:
 #9. Write a program using for loop to print factorial of any given number ; eg 5 factorial = 5 * 4 * 3 * 2 * 1 = 120
 thislist = [1,2,3,4,5]
 fact = 1
-for x in thislist:
+for x in thislist:   
     fact = fact * x
-
+    print(fact)
 print('fact =', fact)
 
 #Thanks for the help on #9
