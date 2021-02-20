@@ -45,3 +45,19 @@ for y in range(6):
 #x = x + y
   x += y
 print(x)
+
+
+a = 33
+b = 44
+print(b > a)
+if b < a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else :
+  print("a is greater than b")
+
+  for i in range(1,10):
+      if i % 2  == 1:
+          print(i)
+      
