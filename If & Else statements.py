@@ -12,7 +12,7 @@ for i in range (100):
         print (i,"is an odd number")
 
 #3. Write a program using while loop to print all prime numbers from 1 to 100.
-num = 100
+num = 16
 for i in range(2, num):
     if num % i == 0:
         print('not a prime')
